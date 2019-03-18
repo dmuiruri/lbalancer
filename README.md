@@ -33,3 +33,10 @@ To scale the service the `yml` file in stage2 folder is run using a
 scaling option and the proxy server's load balancing feature will
 allocate resources in the default round-robin fashion.
 `sudo docker-compose up --scale frontend=3`
+
+## Results
+
+To rest the set up, a client (not yet included in this repo) that
+issues multiple requests to the HTTP server is started and raises a
+large volume of requests to port 80 where the proxy sends the calls to
+the HTTP server instances.
