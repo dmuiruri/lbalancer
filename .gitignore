@@ -1,0 +1,22 @@
+# ignore shell scripts
+*.sh
+
+# ignore data files
+*.csv
+*.xls
+*.xlsx
+
+# ignore json files
+*.json
+
+# ignore emacs backup files
+*.~
+
+# ignore txt files
+*.txt
+
+# ignore pdf files
+*.pdf
+
+# ignore zip files
+*.zip
